@@ -1,0 +1,1058 @@
+[
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "47000, 16000, 15800, 12000, 6100, 3100",
+   "10"
+  ],
+  "expected": "Largest remainder, 10 seats: A 5, B 2, C 1, D 1, E 1, F 0."
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "47000, 16000, 15800, 12000, 6100, 3100",
+   "10"
+  ],
+  "expected": "D'Hondt, 10 seats: A 5, B 2, C 2, D 1, E 0, F 0."
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "47000, 16000, 15800, 12000, 6100, 3100",
+   "10"
+  ],
+  "expected": "Sainte-Lague, 10 seats: A 4, B 2, C 2, D 1, E 1, F 0."
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "100000,80000,30000,20000",
+   "8"
+  ],
+  "expected": "Largest remainder, 8 seats: A 3, B 3, C 1, D 1."
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "100000,80000,30000,20000",
+   "8"
+  ],
+  "expected": "D'Hondt, 8 seats: A 4, B 3, C 1, D 0."
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "100000,80000,30000,20000",
+   "8"
+  ],
+  "expected": "Sainte-Lague, 8 seats: A 3, B 3, C 1, D 1."
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "100,100,50",
+   "2"
+  ],
+  "expected": "Largest remainder, 2 seats: A 1, B 1, C 0."
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "100,100,50",
+   "2"
+  ],
+  "expected": "D'Hondt, 2 seats: A 1, B 1, C 0."
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "100,100,50",
+   "2"
+  ],
+  "expected": "Sainte-Lague, 2 seats: A 1, B 1, C 0."
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "100,100,50",
+   "3"
+  ],
+  "expected": "Largest remainder, 3 seats: A 1, B 1, C 1."
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "100,100,50",
+   "3"
+  ],
+  "expected": "D'Hondt, 3 seats: A 1, B 1, C 0. 1 seat is undecided because A, B and C tie (same quotient)."
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "100,100,50",
+   "3"
+  ],
+  "expected": "Sainte-Lague, 3 seats: A 1, B 1, C 1."
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "10,10,10",
+   "1"
+  ],
+  "expected": "Largest remainder, 1 seat: A 0, B 0, C 0. 1 seat is undecided because A, B and C tie (same remainder)."
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "10,10,10",
+   "1"
+  ],
+  "expected": "D'Hondt, 1 seat: A 0, B 0, C 0. 1 seat is undecided because A, B and C tie (same quotient)."
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "10,10,10",
+   "1"
+  ],
+  "expected": "Sainte-Lague, 1 seat: A 0, B 0, C 0. 1 seat is undecided because A, B and C tie (same quotient)."
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "10,10,10",
+   "2"
+  ],
+  "expected": "Largest remainder, 2 seats: A 0, B 0, C 0. 2 seats are undecided because A, B and C tie (same remainder)."
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "10,10,10",
+   "2"
+  ],
+  "expected": "D'Hondt, 2 seats: A 0, B 0, C 0. 2 seats are undecided because A, B and C tie (same quotient)."
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "10,10,10",
+   "2"
+  ],
+  "expected": "Sainte-Lague, 2 seats: A 0, B 0, C 0. 2 seats are undecided because A, B and C tie (same quotient)."
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "10,10,10",
+   "3"
+  ],
+  "expected": "Largest remainder, 3 seats: A 1, B 1, C 1."
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "10,10,10",
+   "3"
+  ],
+  "expected": "D'Hondt, 3 seats: A 1, B 1, C 1."
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "10,10,10",
+   "3"
+  ],
+  "expected": "Sainte-Lague, 3 seats: A 1, B 1, C 1."
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "0,5",
+   "3"
+  ],
+  "expected": "Largest remainder, 3 seats: A 0, B 3."
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "0,5",
+   "3"
+  ],
+  "expected": "D'Hondt, 3 seats: A 0, B 3."
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "0,5",
+   "3"
+  ],
+  "expected": "Sainte-Lague, 3 seats: A 0, B 3."
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "5",
+   "4"
+  ],
+  "expected": "Largest remainder, 4 seats: A 4."
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "5",
+   "4"
+  ],
+  "expected": "D'Hondt, 4 seats: A 4."
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "5",
+   "4"
+  ],
+  "expected": "Sainte-Lague, 4 seats: A 4."
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "1,1",
+   "1"
+  ],
+  "expected": "Largest remainder, 1 seat: A 0, B 0. 1 seat is undecided because A and B tie (same remainder)."
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "1,1",
+   "1"
+  ],
+  "expected": "D'Hondt, 1 seat: A 0, B 0. 1 seat is undecided because A and B tie (same quotient)."
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "1,1",
+   "1"
+  ],
+  "expected": "Sainte-Lague, 1 seat: A 0, B 0. 1 seat is undecided because A and B tie (same quotient)."
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "1,1",
+   "2"
+  ],
+  "expected": "Largest remainder, 2 seats: A 1, B 1."
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "1,1",
+   "2"
+  ],
+  "expected": "D'Hondt, 2 seats: A 1, B 1."
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "1,1",
+   "2"
+  ],
+  "expected": "Sainte-Lague, 2 seats: A 1, B 1."
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "3,1",
+   "1"
+  ],
+  "expected": "Largest remainder, 1 seat: A 1, B 0."
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "3,1",
+   "1"
+  ],
+  "expected": "D'Hondt, 1 seat: A 1, B 0."
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "3,1",
+   "1"
+  ],
+  "expected": "Sainte-Lague, 1 seat: A 1, B 0."
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "3,1",
+   "4"
+  ],
+  "expected": "Largest remainder, 4 seats: A 3, B 1."
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "3,1",
+   "4"
+  ],
+  "expected": "D'Hondt, 4 seats: A 3, B 1."
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "3,1",
+   "4"
+  ],
+  "expected": "Sainte-Lague, 4 seats: A 3, B 1."
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "3,1",
+   "100"
+  ],
+  "expected": "Largest remainder, 100 seats: A 75, B 25."
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "3,1",
+   "100"
+  ],
+  "expected": "D'Hondt, 100 seats: A 75, B 25."
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "3,1",
+   "100"
+  ],
+  "expected": "Sainte-Lague, 100 seats: A 75, B 25."
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "7,7,7,7,7,7,7,7",
+   "8"
+  ],
+  "expected": "Largest remainder, 8 seats: A 1, B 1, C 1, D 1, E 1, F 1, G 1, H 1."
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "7,7,7,7,7,7,7,7",
+   "8"
+  ],
+  "expected": "D'Hondt, 8 seats: A 1, B 1, C 1, D 1, E 1, F 1, G 1, H 1."
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "7,7,7,7,7,7,7,7",
+   "8"
+  ],
+  "expected": "Sainte-Lague, 8 seats: A 1, B 1, C 1, D 1, E 1, F 1, G 1, H 1."
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "7,7,7,7,7,7,7,7",
+   "4"
+  ],
+  "expected": "Largest remainder, 4 seats: A 0, B 0, C 0, D 0, E 0, F 0, G 0, H 0. 4 seats are undecided because A, B, C, D, E, F, G and H tie (same remainder)."
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "7,7,7,7,7,7,7,7",
+   "4"
+  ],
+  "expected": "D'Hondt, 4 seats: A 0, B 0, C 0, D 0, E 0, F 0, G 0, H 0. 4 seats are undecided because A, B, C, D, E, F, G and H tie (same quotient)."
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "7,7,7,7,7,7,7,7",
+   "4"
+  ],
+  "expected": "Sainte-Lague, 4 seats: A 0, B 0, C 0, D 0, E 0, F 0, G 0, H 0. 4 seats are undecided because A, B, C, D, E, F, G and H tie (same quotient)."
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "1000000000,1000000000,1",
+   "1000"
+  ],
+  "expected": "Largest remainder, 1000 seats: A 500, B 500, C 0."
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "1000000000,1000000000,1",
+   "1000"
+  ],
+  "expected": "D'Hondt, 1000 seats: A 500, B 500, C 0."
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "1000000000,1000000000,1",
+   "1000"
+  ],
+  "expected": "Sainte-Lague, 1000 seats: A 500, B 500, C 0."
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "1000000000",
+   "1000"
+  ],
+  "expected": "Largest remainder, 1000 seats: A 1000."
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "1000000000",
+   "1000"
+  ],
+  "expected": "D'Hondt, 1000 seats: A 1000."
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "1000000000",
+   "1000"
+  ],
+  "expected": "Sainte-Lague, 1000 seats: A 1000."
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "999999999,1",
+   "10"
+  ],
+  "expected": "Largest remainder, 10 seats: A 10, B 0."
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "999999999,1",
+   "10"
+  ],
+  "expected": "D'Hondt, 10 seats: A 10, B 0."
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "999999999,1",
+   "10"
+  ],
+  "expected": "Sainte-Lague, 10 seats: A 10, B 0."
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "60,30,10",
+   "10"
+  ],
+  "expected": "Largest remainder, 10 seats: A 6, B 3, C 1."
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "60,30,10",
+   "10"
+  ],
+  "expected": "D'Hondt, 10 seats: A 6, B 3, C 1."
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "60,30,10",
+   "10"
+  ],
+  "expected": "Sainte-Lague, 10 seats: A 6, B 3, C 1."
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "55,25,20",
+   "5"
+  ],
+  "expected": "Largest remainder, 5 seats: A 3, B 1, C 1."
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "55,25,20",
+   "5"
+  ],
+  "expected": "D'Hondt, 5 seats: A 3, B 1, C 1."
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "55,25,20",
+   "5"
+  ],
+  "expected": "Sainte-Lague, 5 seats: A 3, B 1, C 1."
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "34,33,33",
+   "10"
+  ],
+  "expected": "Largest remainder, 10 seats: A 4, B 3, C 3."
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "34,33,33",
+   "10"
+  ],
+  "expected": "D'Hondt, 10 seats: A 4, B 3, C 3."
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "34,33,33",
+   "10"
+  ],
+  "expected": "Sainte-Lague, 10 seats: A 4, B 3, C 3."
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "50,50",
+   "7"
+  ],
+  "expected": "Largest remainder, 7 seats: A 3, B 3. 1 seat is undecided because A and B tie (same remainder)."
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "50,50",
+   "7"
+  ],
+  "expected": "D'Hondt, 7 seats: A 3, B 3. 1 seat is undecided because A and B tie (same quotient)."
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "50,50",
+   "7"
+  ],
+  "expected": "Sainte-Lague, 7 seats: A 3, B 3. 1 seat is undecided because A and B tie (same quotient)."
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "1,2,3,4,5,6,7,8",
+   "20"
+  ],
+  "expected": "Largest remainder, 20 seats: A 1, B 1, C 2, D 2, E 3, F 3, G 4, H 4."
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "1,2,3,4,5,6,7,8",
+   "20"
+  ],
+  "expected": "D'Hondt, 20 seats: A 0, B 1, C 1, D 2, E 3, F 3, G 4, H 5. 1 seat is undecided because C and F tie (same quotient)."
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "1,2,3,4,5,6,7,8",
+   "20"
+  ],
+  "expected": "Sainte-Lague, 20 seats: A 1, B 1, C 2, D 2, E 3, F 3, G 4, H 4."
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "340,330,330",
+   "1"
+  ],
+  "expected": "Largest remainder, 1 seat: A 1, B 0, C 0."
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "340,330,330",
+   "1"
+  ],
+  "expected": "D'Hondt, 1 seat: A 1, B 0, C 0."
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "340,330,330",
+   "1"
+  ],
+  "expected": "Sainte-Lague, 1 seat: A 1, B 0, C 0."
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "0,0,5,0",
+   "2"
+  ],
+  "expected": "Largest remainder, 2 seats: A 0, B 0, C 2, D 0."
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "0,0,5,0",
+   "2"
+  ],
+  "expected": "D'Hondt, 2 seats: A 0, B 0, C 2, D 0."
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "0,0,5,0",
+   "2"
+  ],
+  "expected": "Sainte-Lague, 2 seats: A 0, B 0, C 2, D 0."
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "12,0,12",
+   "5"
+  ],
+  "expected": "Largest remainder, 5 seats: A 2, B 0, C 2. 1 seat is undecided because A and C tie (same remainder)."
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "12,0,12",
+   "5"
+  ],
+  "expected": "D'Hondt, 5 seats: A 2, B 0, C 2. 1 seat is undecided because A and C tie (same quotient)."
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "12,0,12",
+   "5"
+  ],
+  "expected": "Sainte-Lague, 5 seats: A 2, B 0, C 2. 1 seat is undecided because A and C tie (same quotient)."
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "9,3",
+   "4"
+  ],
+  "expected": "Largest remainder, 4 seats: A 3, B 1."
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "9,3",
+   "4"
+  ],
+  "expected": "D'Hondt, 4 seats: A 3, B 1."
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "9,3",
+   "4"
+  ],
+  "expected": "Sainte-Lague, 4 seats: A 3, B 1."
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "9,3",
+   "5"
+  ],
+  "expected": "Largest remainder, 5 seats: A 4, B 1."
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "9,3",
+   "5"
+  ],
+  "expected": "D'Hondt, 5 seats: A 4, B 1."
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "9,3",
+   "5"
+  ],
+  "expected": "Sainte-Lague, 5 seats: A 4, B 1."
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   " 100 , 200 ",
+   " 3 "
+  ],
+  "expected": "Largest remainder, 3 seats: A 1, B 2."
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   " 100 , 200 ",
+   " 3 "
+  ],
+  "expected": "D'Hondt, 3 seats: A 1, B 2."
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   " 100 , 200 ",
+   " 3 "
+  ],
+  "expected": "Sainte-Lague, 3 seats: A 1, B 2."
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "",
+   "5"
+  ],
+  "expected": "ERR:enter 1 to 8 vote counts separated by commas, each a whole number from 0 to 1000000000"
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "",
+   "5"
+  ],
+  "expected": "ERR:enter 1 to 8 vote counts separated by commas, each a whole number from 0 to 1000000000"
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "",
+   "5"
+  ],
+  "expected": "ERR:enter 1 to 8 vote counts separated by commas, each a whole number from 0 to 1000000000"
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "1,2,3,4,5,6,7,8,9",
+   "5"
+  ],
+  "expected": "ERR:enter 1 to 8 vote counts separated by commas, each a whole number from 0 to 1000000000"
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "1,2,3,4,5,6,7,8,9",
+   "5"
+  ],
+  "expected": "ERR:enter 1 to 8 vote counts separated by commas, each a whole number from 0 to 1000000000"
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "1,2,3,4,5,6,7,8,9",
+   "5"
+  ],
+  "expected": "ERR:enter 1 to 8 vote counts separated by commas, each a whole number from 0 to 1000000000"
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "a,b",
+   "5"
+  ],
+  "expected": "ERR:enter 1 to 8 vote counts separated by commas, each a whole number from 0 to 1000000000"
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "a,b",
+   "5"
+  ],
+  "expected": "ERR:enter 1 to 8 vote counts separated by commas, each a whole number from 0 to 1000000000"
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "a,b",
+   "5"
+  ],
+  "expected": "ERR:enter 1 to 8 vote counts separated by commas, each a whole number from 0 to 1000000000"
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "1,,2",
+   "5"
+  ],
+  "expected": "ERR:enter 1 to 8 vote counts separated by commas, each a whole number from 0 to 1000000000"
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "1,,2",
+   "5"
+  ],
+  "expected": "ERR:enter 1 to 8 vote counts separated by commas, each a whole number from 0 to 1000000000"
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "1,,2",
+   "5"
+  ],
+  "expected": "ERR:enter 1 to 8 vote counts separated by commas, each a whole number from 0 to 1000000000"
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "1.5,2",
+   "5"
+  ],
+  "expected": "ERR:enter 1 to 8 vote counts separated by commas, each a whole number from 0 to 1000000000"
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "1.5,2",
+   "5"
+  ],
+  "expected": "ERR:enter 1 to 8 vote counts separated by commas, each a whole number from 0 to 1000000000"
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "1.5,2",
+   "5"
+  ],
+  "expected": "ERR:enter 1 to 8 vote counts separated by commas, each a whole number from 0 to 1000000000"
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "-1,2",
+   "5"
+  ],
+  "expected": "ERR:enter 1 to 8 vote counts separated by commas, each a whole number from 0 to 1000000000"
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "-1,2",
+   "5"
+  ],
+  "expected": "ERR:enter 1 to 8 vote counts separated by commas, each a whole number from 0 to 1000000000"
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "-1,2",
+   "5"
+  ],
+  "expected": "ERR:enter 1 to 8 vote counts separated by commas, each a whole number from 0 to 1000000000"
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "1000000001,2",
+   "5"
+  ],
+  "expected": "ERR:enter 1 to 8 vote counts separated by commas, each a whole number from 0 to 1000000000"
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "1000000001,2",
+   "5"
+  ],
+  "expected": "ERR:enter 1 to 8 vote counts separated by commas, each a whole number from 0 to 1000000000"
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "1000000001,2",
+   "5"
+  ],
+  "expected": "ERR:enter 1 to 8 vote counts separated by commas, each a whole number from 0 to 1000000000"
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "0,0",
+   "5"
+  ],
+  "expected": "ERR:the total votes must be above 0"
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "0,0",
+   "5"
+  ],
+  "expected": "ERR:the total votes must be above 0"
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "0,0",
+   "5"
+  ],
+  "expected": "ERR:the total votes must be above 0"
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "0",
+   "5"
+  ],
+  "expected": "ERR:the total votes must be above 0"
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "0",
+   "5"
+  ],
+  "expected": "ERR:the total votes must be above 0"
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "0",
+   "5"
+  ],
+  "expected": "ERR:the total votes must be above 0"
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "10,20",
+   "0"
+  ],
+  "expected": "ERR:the seats must be a whole number from 1 to 1000"
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "10,20",
+   "0"
+  ],
+  "expected": "ERR:the seats must be a whole number from 1 to 1000"
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "10,20",
+   "0"
+  ],
+  "expected": "ERR:the seats must be a whole number from 1 to 1000"
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "10,20",
+   "1001"
+  ],
+  "expected": "ERR:the seats must be a whole number from 1 to 1000"
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "10,20",
+   "1001"
+  ],
+  "expected": "ERR:the seats must be a whole number from 1 to 1000"
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "10,20",
+   "1001"
+  ],
+  "expected": "ERR:the seats must be a whole number from 1 to 1000"
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "10,20",
+   "x"
+  ],
+  "expected": "ERR:the seats must be a whole number from 1 to 1000"
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "10,20",
+   "x"
+  ],
+  "expected": "ERR:the seats must be a whole number from 1 to 1000"
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "10,20",
+   "x"
+  ],
+  "expected": "ERR:the seats must be a whole number from 1 to 1000"
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "10,20",
+   ""
+  ],
+  "expected": "ERR:the seats must be a whole number from 1 to 1000"
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "10,20",
+   ""
+  ],
+  "expected": "ERR:the seats must be a whole number from 1 to 1000"
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "10,20",
+   ""
+  ],
+  "expected": "ERR:the seats must be a whole number from 1 to 1000"
+ },
+ {
+  "fn": "remainderTruth",
+  "args": [
+   "10,20",
+   "2.5"
+  ],
+  "expected": "ERR:the seats must be a whole number from 1 to 1000"
+ },
+ {
+  "fn": "dhondtTruth",
+  "args": [
+   "10,20",
+   "2.5"
+  ],
+  "expected": "ERR:the seats must be a whole number from 1 to 1000"
+ },
+ {
+  "fn": "laguTruth",
+  "args": [
+   "10,20",
+   "2.5"
+  ],
+  "expected": "ERR:the seats must be a whole number from 1 to 1000"
+ }
+]
